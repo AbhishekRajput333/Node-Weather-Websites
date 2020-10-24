@@ -18,8 +18,6 @@ hbs.registerPartials(partialsPath)
 
 app.use(express.static(publicDirectoryPath))
 
-debugger
-
 app.get('' , (req,res) => {
 
     res.render('index' , {
