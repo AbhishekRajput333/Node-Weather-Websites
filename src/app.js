@@ -89,6 +89,7 @@ app.get('/weather', (request , response) => {
 
                 location,
                 forecasteData : forecastData.current.weather_descriptions.join(),
+                Humidity : forecastData.current.humidity,
                 address: address
            
           })
